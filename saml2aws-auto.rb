@@ -1,9 +1,9 @@
 class Saml2awsAuto < Formula
   desc "Access, manage & use STS token for federated access into AWS using SAML2"
   homepage 'https://github.com/rukenshia/saml2aws-auto'
-  version '1.7.7'
+  version '1.7.8'
   url "https://github.com/Rukenshia/saml2aws-auto/releases/download/#{version}/saml2aws-auto-#{version}-x86_64-apple-darwin.tar.gz"
-  sha256 '653eb39b0475a1199b9c150a0e5b6d6863be4b598de94a9189f28bdaa3da4336'
+  sha256 'c18f622e0d91ddf0aaf95fd3c514cd0531eab8c604ad7115e1c0c35fb02c4cab'
   
   def install
     bin.install 'saml2aws-auto'  
